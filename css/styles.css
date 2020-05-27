@@ -1,0 +1,372 @@
+corps {
+  taille de police : 16 px ;
+  couleur : # fff ;
+  couleur de fond : # 61122f ;
+  famille de polices : 'Oxygen' , sans-serif;
+}
+
+/** ENTÊTE **/
+# header-nav {
+  couleur de fond : # f6b319 ;
+  border-radius : 0 ;
+  bordure : 0 ;
+}
+
+# logo-img {
+  fond : url ( '../images/restaurant-logo_large.png' ) no-repeat;
+  largeur : 150 px ;
+  hauteur : 150 px ;
+  marge : 10 px  15 px  10 px  0 ;
+}
+
+. navbar-brand {
+  rembourrage supérieur : 25 px ;
+}
+. navbar-brand  h1 { / * Nom du restaurant * /
+  famille de polices : 'Lora' , serif;
+  couleur : # 557c3e ;
+  taille de police : 1,5 em ;
+  transformation de texte : majuscule;
+  poids de la police : gras;
+  ombre du texte : 1 px  1 px  1 px  # 222 ;
+  margin-top : 0 ;
+  marge en bas : 0 ;
+  hauteur de ligne : 0,75 ;
+}
+. navbar marque  un : vol stationnaire , . navbar-brand  a : focus {
+  décoration de texte : aucune;
+}
+. navbar-brand  p { / * Cert casher * /
+  couleur : # 000 ;
+  transformation de texte : majuscule;
+  taille de police : .7 em ;
+  marge supérieure : 15 px ;
+}
+. Navbar  p  span { / * Star-K * /
+  alignement vertical : milieu;
+}
+
+# nav-list {
+  marge supérieure : 10 px ;
+}
+# nav-list  a {
+  couleur : # 951C49 ;
+  alignement du texte : centre;
+}
+# nav-list  a : hover {
+  fond : # E7E7E7 ;
+}
+# nav-list  a  span {
+  taille de police : 1,8 em ;
+}
+
+# téléphone {
+  marge en haut : 5 px ;
+}
+# téléphone  un { / * numéro de téléphone * /
+  alignement du texte : à droite;
+  rembourrage en bas : 0 ;
+}
+# phone  div { / * We Deliver * /
+  couleur : # 557c3e ;
+  alignement du texte : à droite;
+  remplissage à droite : 15 px ;
+}
+
+. navbar-tête  bouton . navbar-bascule , . navbar-header . icône-barre {
+  bordure : 1 px solide # 61122f ;
+}
+. navbar-tête  bouton . navbar-toggle {
+  clair : les deux;
+  margin-top : -30px;
+}
+/ * END HEADER * /
+
+/* BAS DE PAGE */
+. pied de panneau {
+  marge supérieure : 30 px ;
+  rembourrage supérieur : 35 px ;
+  rembourrage en bas : 30 px ;
+  couleur de fond : # 222 ;
+  border-top : 0 ;
+}
+. panneau-pied de page  div . ligne {
+  marge en bas : 35 px ;
+}
+# heures ,  # adresse {
+  hauteur de ligne : 2 ;
+}
+# heures  >  durée ,  # adresse  >  durée {
+  taille de police : 1,3 em ;
+}
+# adresse  p {
+  couleur : # 557c3e ;
+  taille de police : .8 em ;
+  hauteur de ligne : 1,8 ;
+}
+# témoignages {
+  style de police : italique;
+}
+# témoignages  p : nième enfant ( 2 ) {
+  marge supérieure : 25 px ;
+}
+/ * PIED DE FIN * /
+
+
+
+/ * PAGE D'ACCUEIL * /
+. conteneur . jumbotron {
+  shadow-box : 0  0  50 px  # 3F0C1F ;
+  bordure : 2 px solide # 3F0C1F ;
+}
+
+# menu-tile ,  # specials-tile ,  # map-tile {
+  hauteur : 250 px ;
+  largeur : 100 % ;
+  marge en bas : 15 px ;
+  position : relative;
+  bordure : 2 px solide # 3F0C1F ;
+  débordement : caché;
+}
+# menu-tile : hover ,  # specials-tile : hover ,  # map-tile : hover {
+  shadow-box : 0  1 px  5 px  1 px  # cccccc ;
+}
+# menu-tile {
+  fond : url ( '../images/menu-tile.jpg' ) no-repeat;
+  position de fond : centre;
+}
+# tuile specials {
+  fond : url ( '../images/specials-tile.jpg' ) no-repeat;
+  position de fond : centre;
+}
+# Menu tuile  durée ,  # promos tuiles  durée ,  # carte tuiles  durée {
+  position : absolue;
+  en bas : 0 ;
+  à droite : 0 ;
+  largeur : 100 % ;
+  alignement du texte : centre;
+  taille de police : 1,6 em ;
+  transformation de texte : majuscule;
+  couleur de fond : # 000 ;
+  couleur : # fff ;
+  opacité : .8 ;
+}
+/ * FIN DE LA PAGE D'ACCUEIL * /
+
+/ * PAGE CATÉGORIES DE MENU * /
+. catégorie-tuile {
+  position : relative;
+  bordure : 2 px solide # 3F0C1F ;
+  débordement : caché;
+  largeur : 200 px ;
+  hauteur : 200 px ;
+  marge : 0 auto 15 px ;
+}
+. plage de tuiles de catégorie  {
+  position : absolue;
+  en bas : 0 ;
+  à droite : 0 ;
+  largeur : 100 % ;
+  alignement du texte : centre;
+  taille de police : 1,2 em ;
+  transformation de texte : majuscule;
+  couleur de fond : # 000 ;
+  couleur : # fff ;
+  opacité : .8 ;
+}
+. tuile de catégorie : survoler {
+  shadow-box : 0  1 px  5 px  1 px  # cccccc ;
+}
+
+# menu-categories-title  +  div {
+  marge en bas : 50 px ;
+}
+/ * PAGE DES CATÉGORIES DU MENU FIN * /
+
+/ * PAGE DE CATÉGORIE UNIQUE * /
+. menu-item-tile {
+  marge en bas : 25 px ;
+}
+. menu-item-tile  hr {
+  largeur : 80 % ;
+}
+. menu-item-tile . menu-item-price {
+  taille de police : 1,1 em ;
+  alignement du texte : à droite;
+  margin-top : -15px;
+  marge droite : -15px;
+}
+. menu-item-tile . menu-item-price  span {
+  taille de police : .6 em ;
+}
+. menu-item-photo {
+  position : relative;
+  bordure : 2 px solide # 3F0C1F ;
+  débordement : caché;
+  rembourrage : 0 ;
+  marge droite : -15px;
+  marge gauche : auto;
+  marge en bas : 20 px ;
+  largeur max : 250 px ;
+}
+. menu-item-photo  div {
+  position : absolue;
+  en bas : 0 ;
+  à droite : 0 ;
+  largeur : 80 px ;
+  couleur de fond : # 557c3e ;
+  alignement du texte : centre;
+}
+. description de l'élément de menu {
+  rembourrage à droite : 30 px ;
+}
+h3 . menu-item-title {
+  marge : 0  0  10 px ;
+}
+. menu-item-details {
+  taille de police : .9 em ;
+  style de police : italique;
+}
+/ * FIN DE LA PAGE DE CATÉGORIE UNIQUE * /
+
+
+/ ********** Grands appareils uniquement ********** /
+@media ( largeur minimale : 1 200 px ) {
+  . conteneur . jumbotron {
+    fond : url ( '../images/jumbotron_1200.jpg' ) no-repeat;
+    hauteur : 675 px ;
+  }
+}
+
+/ ********** Appareils moyens uniquement ********** /
+@media ( largeur minimale : 992 px ) et ( largeur maximale : 1199 px ) {
+  /* Entête */
+  # logo-img {
+    fond : url ( '../images/restaurant-logo_medium.png' ) no-repeat;
+    largeur : 100 px ;
+    hauteur : 100 px ;
+    marge : 5 px  5 px  5 px  0 ;
+  }
+  / * En-tête de fin * /
+
+  / * Page d'accueil * /
+  . conteneur . jumbotron {
+    fond : url ( '../images/jumbotron_992.jpg' ) no-repeat;
+    hauteur : 558 px ;
+  }
+  / * Fin de la page d'accueil * /
+}
+
+/ ********** Petits appareils uniquement ********** /
+@media ( largeur minimale : 768 px ) et ( largeur maximale : 991 px ) {
+  / * Page d'accueil * /
+  . conteneur . jumbotron {
+    fond : url ( '../images/jumbotron_768.jpg' ) no-repeat;
+    hauteur : 432 px ;
+  }
+  / * Fin de la page d'accueil * /
+}
+
+/ ********** Petits appareils supplémentaires uniquement ********** /
+@media ( largeur maximale : 767 px ) {
+  /* Entête */
+  . navbar-brand {
+    rembourrage supérieur : 10 px ;
+    hauteur : 80 px ;
+  }
+  . navbar-brand  h1 { / * Nom du restaurant * /
+    rembourrage supérieur : 10 px ;
+    taille de police : 5 vw ; / * 1vw = 1% de la largeur de la fenêtre d'affichage * /
+  }
+  . navbar-brand  p { / * Cert casher * /
+    taille de police : .6 em ;
+    marge supérieure : 12 px ;
+  }
+  . navbar-brand  p  img { / * Star-K * /
+    hauteur : 20 px ;
+  }
+
+  # collapsable-nav  a { / * Texte du menu de navigation réduit * /
+    taille de police : 1,2 em ;
+  }
+  # collapsable-nav  a  span { / * Glyphe de menu de navigation réduit * /
+    taille de police : 1 em ;
+    marge droite : 5 px ;
+  }
+
+  # call-btn  >  a {
+    taille de police : 1,5 em ;
+    affichage : bloc;
+    marge : 0  20 px ;
+    rembourrage : 10 px ;
+    bordure : 2 px solide # fff ;
+    couleur de fond : # f6b319 ;
+    couleur : # 951c49 ;
+  }
+  # xs-delivery {
+    marge en haut : 5 px ;
+    taille de police : .7 em ;
+    espacement des lettres : .1 em ;
+    transformation de texte : majuscule;
+  }
+  / * En-tête de fin * /
+
+  /* Bas de page */
+  . panneau de bas de page  section {
+    marge en bas : 30 px ;
+    alignement du texte : centre;
+  }
+  . panneau de bas de page  section : nième-enfant ( 3 ) {
+    marge en bas : 0 ; / * la marge existe déjà sur toute la ligne * /
+  }
+  . panneau de pied de page  section  h {
+    largeur : 50 % ;
+  }
+  / * Fin de pied de page * /
+
+  / * Page d'accueil * /
+  . conteneur . jumbotron {
+    marge supérieure : 30 px ;
+    rembourrage : 0 ;
+  }
+  # tuile-menu ,  # tuile-specials {
+    largeur : 360 px ;
+    marge : 0 auto 15 px ;
+  }
+
+  . menu-item-photo {
+    marge-droite : auto;
+  }
+  . menu-item-tile . menu-item-price {
+    alignement du texte : centre;
+  }
+  . description de l'élément de menu {
+    alignement du texte : centre ;;
+  }
+}
+
+
+/ ********** Super petits appareils uniquement :-) (par exemple, iPhone 4) ********** /
+@media ( largeur maximale : 479 px ) {
+  /* Entête */
+  . navbar-brand  h1 { / * Nom du restaurant * /
+    rembourrage supérieur : 5 px ;
+    taille de police : 6 vw ;
+  }
+  / * En-tête de fin * /
+  
+  / * Page d'accueil * /
+  # tuile-menu ,  # tuile-specials {
+    largeur : 280 px ;
+    marge : 0 auto 15 px ;
+  }
+
+  . col-xxs-12 {
+    position : relative;
+    hauteur min : 1 px ;
+    remplissage à droite : 15 px ;
+    rembourrage à gauche : 15 px ;
+    flotteur : gauche;
+    largeur : 100 % ;
+  }
+}
